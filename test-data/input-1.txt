@@ -1,0 +1,12 @@
+GT4500,2,0,2,0  #create a ship that never fails with 1-1 torpedo
+TORPEDO,SINGLE  #primary
+TORPEDO,SINGLE  #secondary
+TORPEDO,ALL
+TORPEDO,SINGLE  #primary - empty
+GT4500,1,1,1,0  #create a ship - primary always fails
+TORPEDO,SINGLE  #primary - fail
+GT4500,2,0,0,0
+TORPEDO,SINGLE
+TORPEDO,SINGLE
+GT4500,0,0,0,0
+TORPEDO,ALL
